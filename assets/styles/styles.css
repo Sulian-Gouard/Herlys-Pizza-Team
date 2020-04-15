@@ -47,9 +47,13 @@ body{
     background-color: #7f0406;
 }
 /* ========================== menu =================== --> */
-#test{
-    background-color: cornflowerblue;
-    height: 250vh;
+#title-area{
+    background-color:  #7f0406;
+    font-family: 'Niconne';
+    font-size: 1.7rem;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
 }
 /* ========================== cat1 tomate ============ --> */
 
