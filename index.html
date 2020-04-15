@@ -40,13 +40,13 @@
                     </a>
                 </li>
                 <li class="nav-item ml-3 mr-3 p-2">
-                    <a class="nav-link" href="#">Pizza Base Tomate</a>
+                    <a class="nav-link" href="#tomatoes">Pizza Base Tomate</a>
                 </li>
                 <li class="nav-item ml-3 mr-3 p-2">
-                    <a class="nav-link" href="#">Pizza Base Crème</a>
+                    <a class="nav-link" href="#cream">Pizza Base Crème</a>
                 </li>
                 <li class="nav-item ml-3 mr-3 p-2">
-                    <a class="nav-link" href="#">Pizza Creation</a>
+                    <a class="nav-link" href="#creations">Pizza Creation</a>
                 </li>
             </ul>
         </div>
@@ -54,7 +54,7 @@
 
     <!-- ========================== menu - presentation ====== -->
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-sm-12 text-center mt-5" id="title-area">Presentation</div>
             <div class="col-sm-10 text-center">
                 <h2>Bienvenue chez Horlys Pizza !!</h2>
@@ -85,14 +85,14 @@
 
     <!-- ========================== cat1 tomate ============ -->
 
-    <div class="container">
+    <div class="container" id="tomatoes">
         <div class="row">
-            <div class="col-sm-12 text-center" id="title-area">Base Tomate</div>
+            <div class="col-sm-12 text-center mb-5 mt-5" id="title-area">Base Tomate</div>
 
 
             <div class="col-sm-4">
                 <div class="card shadow-sm" style="width: 17em;">
-                    <img src="/assets/img/pizzas/margherita.png" class="card-img-top" alt="buffalo">
+                    <img src="/assets/img/pizzas/margherita.png" class="card-img-top" alt="margherita">
                     <div class="card-body">
                         <p class="card-title h4">Margherita</p>
                         <h3><span class="badge h4">7€</span></h3>
@@ -121,7 +121,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        Votre pizza à bien été ajoutée.
+                                        Votre pizza Margherita à bien été ajoutée.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -138,7 +138,7 @@
 
             <div class="col-sm-4">
                 <div class="card shadow-sm" style="width: 17em;">
-                    <img src="/assets/img/pizzas/margherita burrata.jpg" class="card-img-top" alt="buffalo">
+                    <img src="/assets/img/pizzas/margherita burrata.jpg" class="card-img-top" alt="margherita-burrata">
                     <div class="card-body">
                         <p class="card-title h4">Margherita Burrata</p>
                         <h3><span class="badge h4">10€</span></h3>
@@ -168,7 +168,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        Votre pizza à bien été ajoutée.
+                                        Votre pizza Margherita Burrata à bien été ajoutée.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -229,17 +229,26 @@
                     </div>
                 </div>
             </div>
+        </div>
+           
+
+    <!-- ========================== cat2 creme fraiche ===== -->
+
+    <div class="container" id="cream">
+        <div class="row">
+            <div class="col-sm-12 text-center mb-5 mt-5" id="title-area">Base Crême Fraîche</div>
+
 
             <div class="col-sm-4">
                 <div class="card shadow-sm" style="width: 17em;">
-                    <img src="/assets/img/pizzas/calzone.PNG" class="card-img-top" alt="buffalo">
+                    <img src="/assets/img/pizzas/4fromages.png" class="card-img-top" alt="4fromages">
                     <div class="card-body">
-                        <p class="card-title h4">Calzone</p>
-                        <h3><span class="badge h4">10€</span></h3>
+                        <p class="card-title h4">4 Fromages</p>
+                        <h3><span class="badge h4">12€</span></h3>
 
                         <!-- popover -->
                         <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                            data-placement="bottom" data-content="Tomate, Mozzarella, Jambon, Oeuf, Origan.">
+                            data-placement="bottom" data-content="Crème, Mozzarella, Camembert, Chèvre, Bleu d' Auvergne. ">
                             Ingrédients
                         </button>
 
@@ -261,7 +270,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        Votre pizza à bien été ajoutée.
+                                        Votre pizza 4 Fromages à bien été ajoutée.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
@@ -278,62 +287,209 @@
 
             <div class="col-sm-4">
                 <div class="card shadow-sm" style="width: 17em;">
-                    <img src="/assets/img/pizzas/bolognaise.png" class="card-img-top" alt="buffalo">
+                    <img src="/assets/img/pizzas/savoyarde.jpg" class="card-img-top" alt="savoyarde">
                     <div class="card-body">
-                        <p class="card-title h4">Bolognaise</p>
-                        <h3><span class="badge h4">10€</span></h3>
-
-                        <!-- popover -->
-                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                            data-placement="bottom"
-                            data-content="Sauce tomate, Viande haché bouchère, Origan, Mozzarella.">
-                            Ingrédients
-                        </button>
-
-
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#exampleModal">
-                            Commander
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Bon Appétit !</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        Votre pizza à bien été ajoutée.
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Fermer</button>
-                                        <button type="button" class="btn btn-rouge">Payer</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="card shadow-sm" style="width: 17em;">
-                    <img src="/assets/img/pizzas/pepperoni.jpg" class="card-img-top" alt="buffalo">
-                    <div class="card-body">
-                        <p class="card-title h4">Pepperoni</p>
+                        <p class="card-title h4">Savoyarde</p>
                         <h3><span class="badge h4">12€</span></h3>
 
                         <!-- popover -->
                         <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
                             data-placement="bottom"
-                            data-content="Tomate, Mozzarella, Merguez, Oignons, Poivrons, Pepperoni, Tomate confite.">
+                            data-content="Crème, Pomme de terre, Lardons, Raclette, Oignons, Mozzarella.">
+                            Ingrédients
+                        </button>
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#exampleModal">
+                            Commander
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Bon Appétit !</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Votre pizza à bien été ajoutée.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-rouge">Payer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card shadow-sm" style="width: 17em;">
+                    <img src="/assets/img/pizzas/campagnarde.png" class="card-img-top" alt="campagnarde">
+                    <div class="card-body">
+                        <p class="card-title h4">Campagnarde</p>
+                        <h3><span class="badge h4">12€</span></h3>
+
+                        <!-- popover -->
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="Crème, Mozzarella, Jambon, Pomme de terre, Raclette, Chèvre, Oignons.">
+                            Ingrédients
+                        </button>
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#exampleModal">
+                            Commander
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Bon Appétit !</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Votre pizza à bien été ajoutée.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-rouge">Payer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+    <!-- ========================== cat3 cration =========== -->
+
+    <div class="container" id="creations">
+        <div class="row">
+            <div class="col-sm-12 text-center mb-5 mt-5" id="title-area">Horly's Créations</div>
+
+
+            <div class="col-sm-4">
+                <div class="card shadow-sm" style="width: 17em;">
+                    <img src="/assets/img/pizzas/horlys.png" class="card-img-top" alt="originale">
+                    <div class="card-body">
+                        <p class="card-title h4">Horly's</p>
+                        <h3><span class="badge h4">12€</span></h3>
+
+                        <!-- popover -->
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="Tomate, Jambon de Pays, Pesto, Mozzarella, Roquette, Tomate confite, Crème de balsamique. ">
+                            Ingrédients
+                        </button>
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#exampleModal">
+                            Commander
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Bon Appétit !</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Votre pizza à bien été ajoutée.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-rouge">Payer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card shadow-sm" style="width: 17em;">
+                    <img src="/assets/img/pizzas/donnalouisa.png" class="card-img-top" alt="donnalouisa">
+                    <div class="card-body">
+                        <p class="card-title h4">Donna Louisa</p>
+                        <h3><span class="badge h4">12€</span></h3>
+
+                        <!-- popover -->
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="Tomate, Mozzarella, Jambon, Champignons, Olives, Oeuf.">
+                            Ingrédients
+                        </button>
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#exampleModal">
+                            Commander
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Bon Appétit !</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Votre pizza à bien été ajoutée.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fermer</button>
+                                        <button type="button" class="btn btn-rouge">Payer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card shadow-sm" style="width: 17em;">
+                    <img src="/assets/img/pizzas/salmone.png" class="card-img-top" alt="salmone">
+                    <div class="card-body">
+                        <p class="card-title h4">Salmone</p>
+                        <h3><span class="badge h4">15€</span></h3>
+
+                        <!-- popover -->
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                            data-placement="bottom"
+                            data-content="Crème au pesto, Saumon Fumé, Burrata, Noix, Roquette, Mozzarella.">
                             Ingrédients
                         </button>
 
@@ -371,9 +527,6 @@
             </div>
 
 
-    <!-- ========================== cat2 creme fraiche ===== -->
-
-    <!-- ========================== cat3 cration =========== -->
 
     <!-- ========================== footer ================= -->
 
