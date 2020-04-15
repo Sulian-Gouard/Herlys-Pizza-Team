@@ -23,9 +23,10 @@ body{
 }
 
 
-.btn-primary {
+.btn-rouge {
     background-color: #7f0406;
     border-color: #7f0406;
+    color: #fff;
 }
 
 
@@ -34,6 +35,8 @@ body{
     border-color: #7f0406;
     color: #fff;
 }
+
+
 
 /* ========================== navbar ================= --> */
 
