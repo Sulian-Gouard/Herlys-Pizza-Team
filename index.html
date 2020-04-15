@@ -54,13 +54,16 @@
 
     <!-- ========================== cat2 creme fraiche ===== -->
 
-    <div class="card" style="width: 18em;">
+    <div class="card shadow-sm" style="width: 17em;">
         <img src="/assets/img/pizzas/chevre.jpg" class="card-img-top" alt="buffalo">
         <div class="card-body">
-            <p class="card-title h5">Pizza Chèvre Miel</p>
-            <h4><span class="badge badge-secondary h4">12€</span></h4>
+            <p class="card-title h4">Pizza Chèvre Miel </p>
+            <h3><span class="badge h4">12€</span></h3>
 
             <!-- popover -->
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Crème, Chèvre, Poulet, Mozzarella, Oignons frits, Miel.">
+                Ingrédients
+              </button>
             
             
             <!-- Button trigger modal -->
@@ -94,6 +97,8 @@
         </div>
     </div>
 
+
+    
     <!-- ========================== cat3 cration =========== -->
 
     <!-- ========================== footer ================= -->
@@ -114,12 +119,21 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
+
+<script>
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+
 </body>
 
 </html>

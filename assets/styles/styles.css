@@ -16,6 +16,25 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn:hover{
+    background-color: #fff;
+    color: #7f0406;
+}
+
+
+.btn-primary {
+    background-color: #7f0406;
+    border-color: #7f0406;
+}
+
+
+.badge {
+    background-color: #7f0406;
+    border-color: #7f0406;
+    color: #fff;
+}
+
 /* ========================== navbar ================= --> */
 
 /* ========================== menu =================== --> */
