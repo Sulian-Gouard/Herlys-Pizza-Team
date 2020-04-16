@@ -11,7 +11,6 @@ body{
 
 /* ========================== image de prez ========== --> */
 #img-accueil{
-    background-color: aqua;
     width: 100%;
     height: 50vh;
     background-image: url(../img/pizzas/pizza.jpg);
@@ -19,6 +18,27 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#img-accueil-title{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../img/titlepizza.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#num-left{
+    margin: 0.5rem 0 0 0.5rem;
+    padding: 0 1rem 0.2rem 1rem;
+    font-family: 'Niconne';
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    background-color: #f9a03f;
+    color: #7f0406;
+    z-index: 1100;
+}
+#icone-tel{
+    height: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 /* ========================== cards ================= --> */
@@ -56,6 +76,7 @@ img:hover {
 
 #navbar-perso{
     background-color: #7f0406;
+    /* height: 56px; */
 }
 
 /* ========================== menu =================== --> */
