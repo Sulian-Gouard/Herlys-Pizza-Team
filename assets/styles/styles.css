@@ -44,6 +44,7 @@ body{
 
 /* ========================== navbar ================= --> */
 
+
 .typo-accueil{
     font-family: 'Niconne';
     font-size: 1.7rem;
@@ -57,7 +58,7 @@ body{
 #title-area{
     background-color:  #7f0406;
     font-family: 'Niconne';
-    font-size: 1.7rem;
+    font-size: 3rem;
     width: 100%;
     padding: 1rem;
     color: #fff;
