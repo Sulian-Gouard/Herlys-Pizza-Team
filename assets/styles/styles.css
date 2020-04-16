@@ -21,11 +21,19 @@ body{
     background-size: cover;
 }
 
+/* ========================== cards ================= --> */
+.card {
+    width: 17em;
+}
+img:hover {
+    opacity: 0.8;
+  }
+
+/* ========================== boutons ========== --> */
 .btn:hover{
     background-color: #fff;
     color: #7f0406;
 }
-
 
 .btn-rouge {
     background-color: #7f0406;
@@ -33,18 +41,13 @@ body{
     color: #fff;
 }
 
-
 .badge {
     background-color: #7f0406;
     border-color: #7f0406;
     color: #fff;
 }
 
-
-
 /* ========================== navbar ================= --> */
-
-
 .typo-accueil{
     font-family: 'Niconne';
     font-size: 1.7rem;
@@ -54,9 +57,11 @@ body{
 #navbar-perso{
     background-color: #7f0406;
 }
+
 /* ========================== menu =================== --> */
 #title-area{
     background-color:  #7f0406;
+    border-radius: 0.3rem;
     font-family: 'Niconne';
     font-size: 3rem;
     width: 100%;
@@ -67,24 +72,14 @@ body{
     color: #7f0406;
     text-decoration: none;
 }
-/* ========================== cat1 tomate ============ --> */
-
-/* ========================== cat2 creme fraiche ===== --> */
-
-/* ========================== cat3 cration =========== --> */
 
 /* ========================== footer ================= --> */
 #footer-perso{
     background-color: #3d1d13;
     color: #f9a03f;
 }
-/* #d45113 #813405 */
-/* ========================== coordoner map ========== --> */
+
+/* ========================== coordonees map ========== --> */
 #contact-img-map{
     width: 100%;
 }
-/* ========================== horaire ================ --> */
-
-/* ========================== mention legal ========== --> */
-
-/* ========================== script Bootstrap ======= --> */
