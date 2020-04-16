@@ -90,9 +90,9 @@ img:hover {
     background-color:  #7f0406;
     border-radius: 0.3rem;
     font-family: 'Niconne';
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100%;
-    padding: 1rem;
+    padding: 0;
     color: #f9a03f;
 }
 .link-perso{
@@ -110,3 +110,10 @@ img:hover {
 #contact-img-map{
     width: 100%;
 }
+
+/*
+Color:
+#7f0406
+#3d1d13
+#f9a03f
+*/
