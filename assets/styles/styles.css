@@ -61,7 +61,7 @@ body{
     font-size: 3rem;
     width: 100%;
     padding: 1rem;
-    color: #fff;
+    color: #f9a03f;
 }
 .link-perso{
     color: #7f0406;
@@ -74,9 +74,15 @@ body{
 /* ========================== cat3 cration =========== --> */
 
 /* ========================== footer ================= --> */
-
+#footer-perso{
+    background-color: #3d1d13;
+    color: #f9a03f;
+}
+/* #d45113 #813405 */
 /* ========================== coordoner map ========== --> */
-
+#contact-img-map{
+    width: 90%;
+}
 /* ========================== horaire ================ --> */
 
 /* ========================== mention legal ========== --> */
