@@ -14,7 +14,7 @@
 </head>
 
 
-<body>
+<body data-spy="scroll" data-target="#navbar-perso" data-offset="0">
     <!-- ========================== image de prez ========== -->
 
     <header>
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="#cream">Pizza Base Crème</a>
                 </li>
                 <li class="nav-item ml-3 mr-3 p-2">
-                    <a class="nav-link" href="#creations">Pizza Creation</a>
+                    <a class="nav-link" href="#creations">Pizza Créations</a>
                 </li>
                 <li class="nav-item ml-3 mr-3 p-2">
                     <img src="assets/img/pizzas/panier.png" alt="icone panier">
@@ -66,14 +66,13 @@
             <div class="col-sm-10 text-center">
                 <p>Bienvenue chez <b>Horly's Pizza</b>, situé <b>au Havre</b> 76 en plein centre-ville et à deux pas du
                     port du havre et de la plage.</p>
-                <p>Nous sommes avant tout une équipe de passionnées qui donne le maximum pour faire découvrir les
+                <p>Nous sommes avant tout une équipe de passionnés qui donne le maximum pour faire découvrir les
                     traditions de la pizza artisanale à inspiration napolitaine à nos clients.</p>
 
                 <p>Fort de notre savoir-faire nous vous ferons voyager en quelques instants le temps d'un repas en
                     Italie.</p>
 
-                <p>Nous avons à cœur de réaliser toutes nos pizzas à partir d'une farine de provenance Italienne, de
-                    produits de qualité, ainsi que de mozzarella Cantadora fraîche.</p>
+                <p></p>
 
                 <p>Ne perdez pas un instant et découvrez notre carte des pizzas.
                     Un choix de plus de <b>24 pizzas</b> vous est proposé à emporter, en livraison et sur place quelques
@@ -97,7 +96,7 @@
 
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/margherita.png" class="card-img-top" alt="margherita">
                     <div class="card-body">
                         <p class="card-title h4">Margherita</p>
@@ -114,7 +113,7 @@
                         <button type="button" class="btn btn-rouge" data-toggle="modal" data-target="#margherita">
                             Commander
                         </button>
-                        
+
 
                         <!-- Modal -->
                         <div class="modal fade" id="margherita" tabindex="-1" role="dialog"
@@ -144,7 +143,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/margherita burrata.jpg" class="card-img-top" alt="margherita-burrata">
                     <div class="card-body">
                         <p class="card-title h4">Margherita Burrata</p>
@@ -191,7 +190,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/royale.jpg" class="card-img-top" alt="Royale">
                     <div class="card-body">
                         <p class="card-title h4">Royale</p>
@@ -237,7 +236,7 @@
                 </div>
             </div>
         </div>
-    </div>      
+    </div>
 
     <!-- ========================== cat2 creme fraiche ===== -->
 
@@ -247,7 +246,7 @@
 
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/4fromages.png" class="card-img-top" alt="4fromages">
                     <div class="card-body">
                         <p class="card-title h4">4 Fromages</p>
@@ -255,7 +254,8 @@
 
                         <!-- popover -->
                         <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                            data-placement="bottom" data-content="Crème, Mozzarella, Camembert, Chèvre, Bleu d' Auvergne. ">
+                            data-placement="bottom"
+                            data-content="Crème, Mozzarella, Camembert, Chèvre, Bleu d' Auvergne. ">
                             Ingrédients
                         </button>
 
@@ -293,7 +293,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/savoyarde.jpg" class="card-img-top" alt="savoyarde">
                     <div class="card-body">
                         <p class="card-title h4">Savoyarde</p>
@@ -340,7 +340,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/campagnarde.png" class="card-img-top" alt="campagnarde">
                     <div class="card-body">
                         <p class="card-title h4">Campagnarde</p>
@@ -396,7 +396,7 @@
 
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/horlys.png" class="card-img-top" alt="originale">
                     <div class="card-body">
                         <p class="card-title h4">Horly's</p>
@@ -404,7 +404,8 @@
 
                         <!-- popover -->
                         <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
-                            data-placement="bottom" data-content="Tomate, Jambon de Pays, Pesto, Mozzarella, Roquette, Tomate confite, Crème de balsamique. ">
+                            data-placement="bottom"
+                            data-content="Tomate, Jambon de Pays, Pesto, Mozzarella, Roquette, Tomate confite, Crème de balsamique. ">
                             Ingrédients
                         </button>
 
@@ -442,7 +443,7 @@
             </div>
 
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/donnalouisa.png" class="card-img-top" alt="donnalouisa">
                     <div class="card-body">
                         <p class="card-title h4">Donna Louisa</p>
@@ -487,9 +488,9 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-6 col-lg-4 d-flex justify-content-center mt-5">
-                <div class="card shadow-sm" style="width: 17em;">
+                <div class="card shadow-sm">
                     <img src="/assets/img/pizzas/salmone.png" class="card-img-top" alt="salmone">
                     <div class="card-body">
                         <p class="card-title h4">Salmone</p>
@@ -539,45 +540,45 @@
 
     <!-- ========================== footer ================= -->
 
-<footer class="container-fluid mt-5" id="footer-perso">
-    <div>
-        <div class="row justify-content-center">
-            <!-- ============ titre =========== -->
-            <div class="col-sm-12 text-center" id="title-area">Nous Contacter</div>
+    <footer class="container-fluid mt-5" id="footer-perso">
+        <div>
+            <div class="row justify-content-center">
+                <!-- ============ titre =========== -->
+                <div class="col-sm-12 text-center" id="title-area">Nous Contacter</div>
 
-            <!-- ============ coordoner ======= -->
-            <div class="col-sm-9 col-md-5 col-lg-4 col-xl-2">
-                <p><br><b>HORLY'S PIZZA</b><br>
-                43 rue Augustin Normand,<br>
-                76600 Le Havre<br>
-                <b>02 44 10 03 51</b><br>
-                clementauber@hotmail.fr<br>
-                </p>
+                <!-- ============ coordoner ======= -->
+                <div class="col-sm-9 col-md-5 col-lg-4 col-xl-2">
+                    <p><br><b>HORLY'S PIZZA</b><br>
+                        43 rue Augustin Normand,<br>
+                        76600 Le Havre<br>
+                        <b>02 44 10 03 51</b><br>
+                        clementauber@hotmail.fr<br>
+                    </p>
 
-            <!-- ============ horaire ========= -->
-                <p><b>Fermé le Lundi</b><br>
-                    <b>Ouvert du mardi au samedi</b><br>
-                    11h00 - 14h10 / 18h00 - 22h20<br>
-                    <b>Dimanche</b><br>
-                    18h00 - 22h20<br>
-                </p>
+                    <!-- ============ horaire ========= -->
+                    <p><b>Fermé le Lundi</b><br>
+                        <b>Ouvert du mardi au samedi</b><br>
+                        11h00 - 14h10 / 18h00 - 22h20<br>
+                        <b>Dimanche</b><br>
+                        18h00 - 22h20<br>
+                    </p>
 
 
-            </div>
+                </div>
 
-            <!-- ============ map ============= -->
-            <div class="col-sm-9 col-md-5 col-lg-4 col-xl-2 mb-4">
-                <a href="https://goo.gl/maps/G4YdMtFiAn4hT78E7" target="_blank">
-                    <img class="mt-3" id="contact-img-map" src="assets\img\map.png" alt="Lien Google Map" title="Image lien vers Google Map">
-                </a>
+                <!-- ============ map ============= -->
+                <div class="col-sm-9 col-md-5 col-lg-4 col-xl-2 mb-4">
+                    <a href="https://goo.gl/maps/G4YdMtFiAn4hT78E7" target="_blank">
+                        <img class="mt-3" id="contact-img-map" src="assets\img\map.png" alt="Lien Google Map"
+                            title="Image lien vers Google Map">
+                    </a>
 
-            </div>
+                </div>
 
-            <!-- ============ mention legal === -->
-            <div class="col-sm-12 text-center">
-                <a class="link text-decoration-none text-white" href="#footer-perso" data-toggle="popover"
-                            data-placement="top"
-                            data-content="Nom de la société : HORLY'S PIZZA
+                <!-- ============ mention legal === -->
+                <div class="col-sm-12 text-center">
+                    <a class="link text-decoration-none text-white" href="#footer-perso" data-toggle="popover"
+                        data-placement="top" data-content="Nom de la société : HORLY'S PIZZA
                             Numéro de Siret : 83217523600013
                             Nom du responsable : Clément AUBER
                             
@@ -588,12 +589,13 @@
                             DIRECTEUR DE LA PUBLICATION : HORLY'S PIZZA
                             RESPONSABLE DE LA REDACTION : HORLY'S PIZZA
                             HEBERGEUR : La Manu Le Havre
-                            WEBMASTERS : Donatello & Michelangelo">© Tous droits réservés - Horly's Pizza - 2020 - Mentions légales</a>
-                
+                            WEBMASTERS : Donatello & Michelangelo">© Tous droits réservés - Horly's Pizza - 2020 -
+                        Mentions légales</a>
 
-        </div>
-    </div>
-</footer>
+
+                </div>
+            </div>
+    </footer>
 
 
 
